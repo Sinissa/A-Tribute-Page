@@ -1,0 +1,40 @@
+body, #image {
+    background-color:beige;
+    text-align: center
+  }
+  
+#title {
+  padding: 20px;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+
+
+#tribute-info {
+  width: 37%;
+  height: 700px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-image: url("https://cdn.pixabay.com/photo/2013/11/28/11/31/eiffel-tower-220298_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+ul, li {
+  list-style: none;
+  padding: 20px;
+  font-family: cursive, serif;
+}
